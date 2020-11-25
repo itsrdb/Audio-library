@@ -3,36 +3,34 @@
     
 <head>
     <title>A-Library</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=<?php echo time(); ?>">
 </head>
     
 <body>
-    <h1>Audio-library System</h1>
+    <center><h1 class="heading" style="color: #000000;">Audio-library</h1></center>
     <div class="admin-login-form">
-        <h2>Admin Login</h2>
+        <p class="sign" align="center" style="color:teal;">Admin Login</p>
         <form action="includes/login-hm.inc.php" method="POST">
-            <div class=" w3l-form-group">
-                <label>Username:</label>
+            <div class="form-group">
+                Username:
                 <div class="group">
                     <i class="fas fa-user"></i>
-                    <input type="text" class="form-control" name="username" placeholder="Username" required="required" />
+                    <input type="text" class="form-control" name="username" placeholder="" required="required" />
                 </div>
             </div>
-            <div class=" w3l-form-group">
-                <label>Password:</label>
+            <div class="form-group">
+                Password:
                 <div class="group">
                     <i class="fas fa-unlock"></i>
-                    <input type="password" class="form-control" name="pwd" placeholder="Password" required="required" />
+                    <input type="password" class="form-control" name="pwd" placeholder="" required="required" />
                 </div>
             </div>
-            <!--<div class="forgot">
-                <a href="#">Forgot Password?</a>
-                <p><input type="checkbox">Remember Me</p>
-            </div>-->
-            <button type="submit" name="login-submit">Login</button>
+            <button class="sub-btn" type="submit" name="login-submit">Login</button>
         </form>
     </div>
+    <div class="foo">
     <footer>
-        <p class="copyright-agileinfo"> &copy; 2018 DBMS Project. All Rights Reserved | Design by <a href="https://www.linkedin.com/in/bharat-reddy/">Bharat-Prajwal-Rakesh</a></p>
+        <p><center> &copy; IIITDMJ DBMS-2020 Project. All Rights Reserved | Project link <a href="https://github.com/itsrdb/Audio-library">here</a>.</center></p>
     </footer>
+    </div>
 </body>
