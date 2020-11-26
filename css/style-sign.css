@@ -20,7 +20,7 @@
 }
 
 .form-group {
-	width: 76%;
+	width: 80%;
     text-align: left;
 	font-weight: 700;
 	font-size: 12px;
@@ -28,14 +28,12 @@
 	background: rgba(136, 126, 126, 0.04);
 	padding: 10px 10px;
 	border: none;
-    
 	border-radius: 20px;
 	outline: none;
 	box-sizing: border-box;
 	border: 2px solid rgba(0, 0, 0, 0.02);
 	margin-bottom: 50px;
 	margin-left: 46px;
-	
 	margin-bottom: 27px;
 	font-family: 'Ubuntu', sans-serif;
     
@@ -64,8 +62,8 @@
 
 .admin-login-form {
 	background-color: #FFFFFF;
-	width: 400px;
-	height: 400px;
+	width: 600px;
+	height: 800px;
 	margin: 2em auto;
     padding-bottom: 15px;
 	border-radius: 1.5em;
@@ -135,7 +133,20 @@ input[type=text], select {
   border-radius: 10px;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid teal;
+  border-bottom: 2px solid green;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background: rgba(136, 126, 126, 0.04);
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid green;
 }
 
 input[type=password], select {
@@ -148,7 +159,7 @@ input[type=password], select {
   border-radius: 10px;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid teal;
+  border-bottom: 2px solid green;
 }
 
 .submit {
