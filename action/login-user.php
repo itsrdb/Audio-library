@@ -7,7 +7,7 @@ if(isset($_POST['login-submit'])) {
     if($count==0) {
         echo "Nope";
     } else {
-        echo "Hello";
+        include 'user-not-found.html';
     }
 }else{
     

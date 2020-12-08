@@ -9,7 +9,7 @@
 <body>
     <center><h1 class="heading" style="color: #000000;">Audio-library</h1></center>
     <div class="admin-login-form">
-        <p class="sign" align="center" style="color:green;">User Sign-up</p>
+        <p class="sign" align="center" style="color:#194a50;">User Sign-up</p>
         <form action="action/register.php" method="POST">
             <div class="form-group">
                 First name:
@@ -56,3 +56,4 @@
     </footer>
     </div>
 </body>
+</html>
