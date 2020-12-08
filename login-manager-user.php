@@ -10,7 +10,7 @@
     <center><h1 class="heading" style="color: #000000;">Audio-library</h1></center>
     <div class="admin-login-form">
         <p class="sign" align="center" style="color:teal;">User Login</p>
-        <form action="action/login.php" method="POST">
+        <form action="action/login-user.php" method="POST">
             <div class="form-group">
                 Username:
                 <div class="group">
@@ -25,9 +25,7 @@
                     <input type="password" class="form-control" name="pwd" placeholder="" required="required" />
                 </div>
             </div>
-            <div class = "buttons">
-                <button class="sub-btn" type="submit" name="login-submit">Login</button>
-            </div>
+            <button class="sub-btn" type="submit" name="login-submit">Login</button><br>
             <p class="ref-link"><center>To sign up click<a href="sign-up"> here</a>.</center></p>
         </form>
     </div>

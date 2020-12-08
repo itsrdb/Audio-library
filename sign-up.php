@@ -46,7 +46,7 @@
                     <input type="email" class="form-control" name="email" placeholder="" required="required" />
                 </div>
             </div>
-            <button class="sub-btn" type="submit" name="login-submit">Sign-up as new</button><br>
+            <button class="sub-btn" type="submit" name="signup-submit">Sign-up as new</button><br>
             <p class="ref-link"><center>Already a user? Click<a href="login-manager-user"> here</a>.</center></p>
         </form>
     </div>
