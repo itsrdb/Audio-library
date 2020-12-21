@@ -1,0 +1,98 @@
+body {
+    margin: 5%;
+}
+
+.container {
+    display: flex;
+    width: fit-content;
+    justify-content:flex-end;
+    border-radius: 50px;
+    box-shadow: 12px 12px 12px #000000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.left-container {
+    padding-top: 7%;
+    justify-content: flex-end;
+    margin: 2%;
+}
+
+.info {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 2%;
+    padding: 5%;
+}
+
+#profile-image{
+transition:all 0.2s linear;
+box-shadow: 2px 2px 4px 0px #006773;
+border-radius:7px 7px 7px 7px ;
+}
+
+.right-container {
+    flex-basis: 70%;
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
+.content {
+    margin-top: 10%;
+    border-radius: 5px;
+    color: springgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.responsive-container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 3%;
+    margin-top: 2%;
+    border-radius: 4px;
+    background-color: aqua;
+    box-shadow: 5px 5px 12px #000000;
+}
+
+.responsive-container table {
+    background-color: aqua;
+    width: 100%;
+}
+
+.responsive-container thead {
+    background-color: pink;
+    font-weight: bolder;
+}
+
+.responsive-container th, td {
+    font-family: 'Times New Roman', Times, serif;
+    display: table-cell;
+    padding-top: 3px;
+    text-align: left;
+}
+
+.responsive-container table a {
+    text-decoration: none;
+}
+
+audio:hover, audio:focus, audio:active {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0);
+    transform: scale(1.05);
+}
+
+audio {
+    height: 40px;
+    transition: all 0.2s linear;
+    box-shadow: 2px 2px 4px 0px #006773;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.pagination a:hover {
+    background-color: gray;
+}
+
+.active-page a {
+    background-color: black;
+    color: #ffffff;
+}

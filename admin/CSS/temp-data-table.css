@@ -1,0 +1,32 @@
+.responsive-container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 3%;
+    margin-top: 2%;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px #000000;
+}
+.responsive-container table{ 
+    width: 100%;
+}
+.responsive-container thead{
+    background-color: antiquewhite;
+    font-weight: bolder;
+}
+.responsive-container th,td{
+    font-family: 'Times New Roman', Times, serif;
+    display: table-cell;
+    padding: 1%;
+    text-align: left;
+}
+.responsive-container table a{
+    text-decoration: none;
+}
+.pagination a:hover{
+    background-color:gray;
+}
+.active-page a{
+    background-color: aqua;
+    color: #000000;
+}

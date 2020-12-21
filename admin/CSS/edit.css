@@ -1,0 +1,43 @@
+body {
+        background-image: url('../../Images/bg.jpg');
+    }
+
+    form {
+        width: 60%;
+        margin: 30px auto;
+        padding: 2%;
+        background-color: yellow;
+        border: 2px solid #000000;
+        border-radius: 5px;
+    }
+    h3{
+    
+    font-weight: bolder;
+    font-family: cursive;
+    }
+
+    table {
+        align-self: center;
+        width: 90%;
+        margin: 1%;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .update-btn {
+        margin: 2%;
+        padding: 1%;
+        background-color: lightblue;
+        border-radius: 5px;
+    }
+
+    .fade {
+        color: black;
+        background-color: rgb(12, 451, 56);
+    }
+
+    .show {
+        margin-left: 30%;
+        margin-right: 30%;
+        width: 40%;
+    }
